@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="WebConstruccion">
+        <wb-resource deploy-path="/" source-path="/ui/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/capas"/>
+        <property name="context-root" value="WebConstruccion"/>
+        <property name="java-output-path" value="/WebConstruccion/build/classes"/>
+    </wb-module>
+</project-modules>
