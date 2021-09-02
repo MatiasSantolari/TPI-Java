@@ -3,7 +3,7 @@ package entidades;
 public class Cliente {
 	private int idCliente;
 	private String razonSocial;
-	private int telefono;
+	private String telefono;
 	private String mail;
 	
 	
@@ -19,10 +19,10 @@ public class Cliente {
 	public void setRazonSocial(String razonSocial) {
 		this.razonSocial = razonSocial;
 	}
-	public int getTelefono() {
+	public String getTelefono() {
 		return telefono;
 	}
-	public void setTelefono(int telefono) {
+	public void setTelefono(String telefono) {
 		this.telefono = telefono;
 	}
 	public String getMail() {
@@ -30,6 +30,19 @@ public class Cliente {
 	}
 	public void setMail(String mail) {
 		this.mail = mail;
+	}
+	
+	public Cliente(int idCliente, String razonSocial, String telefono, String mail) {
+		super();
+		this.idCliente = idCliente;
+		this.razonSocial = razonSocial;
+		this.telefono = telefono;
+		this.mail = mail;
+	}
+	@Override
+	public String toString() {
+		return "Cliente [idCliente=" + idCliente + ", razonSocial=" + razonSocial + ", telefono=" + telefono + ", mail="
+				+ mail + "]";
 	}
 	
 	
